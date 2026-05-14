@@ -1,0 +1,27 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Admin</title>
+
+</head>
+
+<body>
+
+<h1>Área Administrativa</h1>
+
+<p>Usuário autenticado com sucesso.</p>
+
+<form th:action="@{/logout}" method="post">
+
+    <button type="submit">
+        Sair
+    </button>
+
+</form>
+
+</body>
+</html>
